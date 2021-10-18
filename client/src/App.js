@@ -15,6 +15,8 @@ import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
 import AboutPage from "./pages/AboutPage";
 import TopNavBar from "./components/TopNavBar";
+import SelfAssessPage from "./pages/SelfAssessPage";
+import ResourcesPage from "./pages/Resources";
 
 function App() {
   return (
@@ -31,6 +33,12 @@ function App() {
             </Route>
             <Route path="/about">
               <AboutPage />
+            </Route>
+            <Route path="/selfAssessment">
+              <SelfAssessPage/>
+            </Route>
+            <Route path="/resources">
+              <ResourcesPage />
             </Route>
             <Route path="/">
               <NotFoundPage />
