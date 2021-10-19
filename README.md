@@ -14,7 +14,7 @@ It helps to distinguish if you are experiencing burnout using self awareness que
 * References pages to additional pages on burnout causes and solutions
 
 # Running it locally
-!. Download the code either via zip or by cloning
+1. Download the code either via zip or by cloning
 2. run `cd client` to navigate to the client folder
 3. run `npm start` or `yarn start` to start the application in localhost
 
