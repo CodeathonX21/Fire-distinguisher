@@ -16,7 +16,10 @@ const TopNavBar = () => {
               <a class="nav-item nav-link" href="/about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item nav-link" href="/selfAssessment">Self Assessment</a>
+              <a class="nav-item nav-link" href="/learning">Learning</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item nav-link" href="/quizzes">Quizzes</a>
             </li>
             <li class="nav-item">
               <a class="nav-item nav-link" href="/resources">Resources</a>
