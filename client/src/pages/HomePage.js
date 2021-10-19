@@ -24,7 +24,7 @@ const HomePage = () => {
 
             <h3 className="mt-4">Are you experiencing burnout?</h3>
             <p>Take our self-assessment quiz to see how many symptoms of burnout you might be currently experiencing</p>
-            <a class="btn btn-primary" href="/selfAssessment" role="button">Take a self assessment</a>
+            <a class="btn btn-primary" href="/quizzes" role="button">Take a self assessment</a>
             
             <h3 className="mt-4">Solutions to mitigate burnout</h3>
             <p>Check out our resources page to find out more information on how you can mitigate the effects of burnout and things you could try to prevent it.</p>
