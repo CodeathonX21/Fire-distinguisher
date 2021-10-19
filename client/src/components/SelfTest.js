@@ -102,16 +102,19 @@ const SelfTest = () => {
             setCurrentQuestion(0);
             setQuizState(2);
 
-            setQuizSum(numPhysicalSymptoms + numEmotionalSymptoms + numBehaviouralSymptoms);
-            if (quizSum > 11) {
+            var sum = numPhysicalSymptoms + numEmotionalSymptoms + numBehaviouralSymptoms;
+            if (sum > 11) {
                 setQuizResultMsg("You are experiencing a quite a few symptoms of burn out. Consider seeking help from someone.");
-            } else if (quizSum > 7) {
+            } else if (sum > 7) {
                 setQuizResultMsg("You are experiencing a few symptoms of burnout. Perhaps consider trying some of the solutions to burnout.");
-            } else if (quizSum > 3) {
+            } else if (sum > 3) {
                 setQuizResultMsg("Looks like you're not doing too bad! Still, be sure to take care of your personal wellbeing.")
             } else {
                 setQuizResultMsg("Looks like you're doing ok! Continue practicing mindfulness and taking care of yourself!")
             }
+
+            setQuizSum(sum);
+
         } else {
             setCurrentQuestion(currentQuestion + 1);
         }
