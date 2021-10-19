@@ -16,7 +16,8 @@ import NotFoundPage from "./pages/NotFoundPage";
 import AboutPage from "./pages/AboutPage";
 import TopNavBar from "./components/TopNavBar";
 import SelfAssessPage from "./pages/SelfAssessPage";
-import ResourcesPage from "./pages/Resources";
+import ResourcesPage from "./pages/ResourcesPage";
+import ReferencesPage from "./pages/ReferencesPage";
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
             </Route>
             <Route path="/resources">
               <ResourcesPage />
+            </Route>
+            <Route path="/references">
+              <ReferencesPage />
             </Route>
             <Route path="/">
               <NotFoundPage />

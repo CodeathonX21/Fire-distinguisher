@@ -1,5 +1,11 @@
 import React, { Fragment, useEffect, useState } from "react";
 
+/*
+References:
+https://getbootstrap.com/docs/4.0/components/list-group/#javascript-behavior
+
+*/
+
 
 const ResourcesPage = () => {
     return (

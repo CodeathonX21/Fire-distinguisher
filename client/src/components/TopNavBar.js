@@ -3,10 +3,9 @@ import React, { Fragment } from "react";
 const TopNavBar = () => {
 
   return (
-    <Fragment>
-        <nav class="navbar navbar-expand-lg navbar-light navbar-color-custom-purple ms-3 me-3">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-color-custom-purple" >
           <a class="navbar-brand" href="/home">
-            <img src="/transparentLogo.svg" width="30" height="30" class="d-inline-block align-top" alt=""/>
+            <img src="/transparentLogo.svg" width="30" height="30" class="d-inline-block ms-3 align-top" alt=""/>
             &#160;Fire Distinguisher
           </a>
           <ul class="navbar-nav mr-auto">
@@ -22,10 +21,11 @@ const TopNavBar = () => {
             <li class="nav-item">
               <a class="nav-item nav-link" href="/resources">Resources</a>
             </li>
-  
+            <li class="nav-item">
+              <a class="nav-item nav-link" href="/references">References</a>
+            </li>
             </ul>
         </nav>
-    </Fragment>
   );
 };
 

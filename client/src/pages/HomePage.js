@@ -10,14 +10,23 @@ const HomePage = () => {
                 </div>
             </div>
 
-            <h3>What is burnout?</h3>
-            <p></p>
+            <h3 className="mt-4">What is burnout?</h3>
+            <p>Burnout is when you experience consistently high levels of stress or discomfort, usually at work, resulting in a loss in interest to work, as well as a lowered productivity rate. Burnout can also have negative effects on other aspects of your health as well. It is important to be able to recognize the signs of burnout early and do what you can to protect your mental health.</p>
+            <p>While burnout may seem like just a mental issue, the long term effects of burnout can be quite damaging, both to the person suffering from burnout and those around them. </p>
 
-            <h3>Are you experiencing burnout?</h3>
-            <p></p>
+            <h3 className="mt-4">What are the common causes of burnout?</h3>
+            <p>Learn more about the more common causes of burnout, as well as the effects burnout can have on you.</p>
+            <a class="btn btn-primary" href="/" role="button">Learn More</a>
+
+            <h3 className="mt-4">Are you experiencing burnout?</h3>
+            <p>Take our self-assessment quiz to see how many symptoms of burnout you might be currently experiencing</p>
+            <a class="btn btn-primary" href="/selfAssessment" role="button">Take a self assessment</a>
             
-            <h3>Solutions to mitigate burnout</h3>
-            <p></p>
+            <h3 className="mt-4">Solutions to mitigate burnout</h3>
+            <p>Check out our resources page to find out more information on how you can mitigate the effects of burnout and things you could try to prevent it.</p>
+            <a class="btn btn-primary" href="/Resources" role="button">Check out our resources</a>
+
+
         </Fragment>
     );    
 }
