@@ -13,7 +13,13 @@ It helps to distinguish if you are experiencing burnout using self awareness que
 * Resources pages with information on the solutions u can employ to prevent burnout, or to mitigate the effects of burnout.
 * References pages to additional pages on burnout causes and solutions
 
-# Running it locally
+# Try it out!
+
+## Try it on Repl.it
+Visit the Repl (here)[https://replit.com/@AmeliaTYR/Fire-distinguisher?v=1] for a live demo of the website!
+(Note: It may take a while to load because of the npm install thanks for your patience)
+
+## Running it locally
 1. Download the code either via zip or by cloning
 2. run `cd client` to navigate to the client folder
 3. run `npm start` or `yarn start` to start the application in localhost
