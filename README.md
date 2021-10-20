@@ -19,6 +19,9 @@ It helps to distinguish if you are experiencing burnout using self awareness que
 Visit the Repl (here)[https://replit.com/@AmeliaTYR/Fire-distinguisher?v=1] for a live demo of the website!
 (Note: It may take a while to load because of the npm install thanks for your patience)
 
+![Repl.it view](https://user-images.githubusercontent.com/53657436/138016792-66931579-6151-437c-a359-82ba23a1f78e.png)
+Close the console for better view of the page
+
 The code in the Repl differs slightly as it is optimized for Repl.it viewing
 
 ## Running it locally
