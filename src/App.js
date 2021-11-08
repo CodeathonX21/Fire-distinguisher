@@ -20,7 +20,7 @@ import QuizzesPage from "./pages/QuizzesPage";
 import ResourcesPage from "./pages/ResourcesPage";
 import ReferencesPage from "./pages/ReferencesPage";
 import LearningPage from "./pages/LearningPage";
-
+ 
 function App() {
   return (
     <Fragment>
