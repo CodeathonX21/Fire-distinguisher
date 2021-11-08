@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Routes,
   Link,
   useRouteMatch,
   useParams
@@ -25,38 +26,22 @@ function App() {
     <Fragment>
       <TopNavBar/>
       <div className="container">
-        <Router>
+        {/* <Router> */}
         <div>
           {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}
-          <Switch>
-            <Route path="/home">
-              <HomePage />
-            </Route>
-            <Route path="/about">
-              <AboutPage />
-            </Route>
-            <Route path="/quizzes">
-              <QuizzesPage/>
-            </Route>
-            <Route path="/resources">
-              <ResourcesPage />
-            </Route>
-            <Route path="/references">
-              <ReferencesPage />
-            </Route>
-            <Route path="/learning">
-              <LearningPage />
-            </Route>
-            <Route exact path="/">
-              <HomePage />
-            </Route>
-            <Route path="/">
-              <NotFoundPage />
-            </Route>
-          </Switch>
+          <Routes>
+            <Route path="/home" element={ <HomePage />} />
+            <Route path="/about" element={ <AboutPage /> }/>
+            <Route path="/quizzes" element={ <QuizzesPage/> }/>
+            <Route path="/resources" element={ <ResourcesPage /> }/>
+            <Route path="/references" element={ <ReferencesPage /> }/>
+            <Route path="/learning" element={ <LearningPage /> }/>
+            <Route exact path="/" element={ <HomePage /> }/>
+            <Route path="*" exact={true} element={ <NotFoundPage /> }/>
+          </Routes>
         </div>
-      </Router>
+      {/* </Router> */}
       </div>
     </Fragment>
     
