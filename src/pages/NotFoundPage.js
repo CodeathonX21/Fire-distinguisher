@@ -6,7 +6,7 @@ const NotFoundPage = () => {
             <h3 className="mt-5">404 Not Found!</h3>
             <p>Error page not found!</p>
 
-            <a class="btn btn-primary" href="/home" role="button">Back to home</a>
+            <a class="btn btn-primary" href={process.env.PUBLIC_URL + "/home"} role="button">Back to home</a>
         </Fragment>
     );    
 }

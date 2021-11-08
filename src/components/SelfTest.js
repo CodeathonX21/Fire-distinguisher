@@ -207,7 +207,7 @@ const SelfTest = () => {
 
                     <a class="btn btn-primary me-4" onClick={() => handleRestartBtnClick()} role="button">Restart Assessment</a>
                     {quizSum > 7 ? (
-                        <a class="btn btn-primary me-4" href="/resources" role="button">View Resources</a>
+                        <a class="btn btn-primary me-4" href={process.env.PUBLIC_URL + "/resources"} role="button">View Resources</a>
                     ) : (<br/>)}
                 </div>
             ) : (<br/>)}
