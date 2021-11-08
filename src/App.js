@@ -48,6 +48,9 @@ function App() {
             <Route path="/learning">
               <LearningPage />
             </Route>
+            <Route exact path="/">
+              <HomePage />
+            </Route>
             <Route path="/">
               <NotFoundPage />
             </Route>
