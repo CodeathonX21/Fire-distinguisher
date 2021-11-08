@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
   Routes,
@@ -30,7 +30,7 @@ function App() {
         <div>
           {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}
-          <Routes>
+          <HashRouter>
             <Route path={process.env.PUBLIC_URL + "/home"} element={ <HomePage />} />
             <Route path={process.env.PUBLIC_URL + "/about"} element={ <AboutPage /> }/>
             <Route path={process.env.PUBLIC_URL + "/quizzes"} element={ <QuizzesPage/> }/>
@@ -39,7 +39,7 @@ function App() {
             <Route path={process.env.PUBLIC_URL + "/learning"} element={ <LearningPage /> }/>
             <Route exact path="/" element={ <HomePage /> }/>
             <Route path="*" element={ <NotFoundPage /> }/>
-          </Routes>
+          </HashRouter>
         </div>
       {/* </Router> */}
       </div>
