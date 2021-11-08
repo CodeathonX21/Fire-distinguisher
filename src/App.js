@@ -31,12 +31,12 @@ function App() {
           {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}
           <HashRouter>
-            <Route path={process.env.PUBLIC_URL + "/home"} element={ <HomePage />} />
-            <Route path={process.env.PUBLIC_URL + "/about"} element={ <AboutPage /> }/>
-            <Route path={process.env.PUBLIC_URL + "/quizzes"} element={ <QuizzesPage/> }/>
-            <Route path={process.env.PUBLIC_URL + "/resources"} element={ <ResourcesPage /> }/>
-            <Route path={process.env.PUBLIC_URL + "/references"} element={ <ReferencesPage /> }/>
-            <Route path={process.env.PUBLIC_URL + "/learning"} element={ <LearningPage /> }/>
+            <Route path={process.env.PUBLIC_URL + "/#home"} element={ <HomePage />} />
+            <Route path={process.env.PUBLIC_URL + "/#about"} element={ <AboutPage /> }/>
+            <Route path={process.env.PUBLIC_URL + "/#quizzes"} element={ <QuizzesPage/> }/>
+            <Route path={process.env.PUBLIC_URL + "/#resources"} element={ <ResourcesPage /> }/>
+            <Route path={process.env.PUBLIC_URL + "/#references"} element={ <ReferencesPage /> }/>
+            <Route path={process.env.PUBLIC_URL + "/#learning"} element={ <LearningPage /> }/>
             <Route exact path="/" element={ <HomePage /> }/>
             <Route path="*" element={ <NotFoundPage /> }/>
           </HashRouter>
