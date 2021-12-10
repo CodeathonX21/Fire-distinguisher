@@ -49,6 +49,9 @@ function App() {
               <LearningPage />
             </Route>
             <Route path="/">
+              <HomePage />
+            </Route>
+            <Route path="*">
               <NotFoundPage />
             </Route>
           </Switch>
