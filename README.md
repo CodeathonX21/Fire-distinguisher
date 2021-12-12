@@ -15,7 +15,11 @@ It helps to distinguish if you are experiencing burnout using self awareness que
 
 # Try it out!
 
-## Try it on Replit
+## Try out my new app hosted on Vercel `[new]`
+
+https://fire-distinguisher.vercel.app/
+
+## Try it on Replit `[previously]`
 Visit the Repl (here)[https://replit.com/@AmeliaTYR/Fire-distinguisher?v=1] for a live demo of the website!
 (Note: It may take a while to load because of the npm install thanks for your patience)
 
@@ -26,10 +30,9 @@ The code in the Replit differs slightly as it is optimized for Replit viewing
 
 ## Running it locally
 1. Download the code either via zip or by cloning
-2. run `cd client` to navigate to the client folder
-3. run `npm start` or `yarn start` to start the application in localhost
+2. run `npm start` or `yarn start` to start the application in localhost
 
 # Features to be implemented
-* Deployment
+* Deployment `[Completed!]`
 * Additional quizzes and information
 * More interactive games to learn more about burnout
